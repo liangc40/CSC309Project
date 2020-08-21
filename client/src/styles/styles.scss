@@ -1,0 +1,44 @@
+// base
+@import './base/settings';
+@import './base/base';
+
+// Admin
+@import './components/Admin/Admin';
+@import './components/Admin/AdminUsers';
+@import './components/Admin/AdminUsersEdit';
+@import './components/Admin/AdminData';
+
+// Charts
+
+// Chat
+@import './components/Chat/ChatPerson';
+@import './components/Chat/ChatContent';
+@import './components/Chat/MessagePage';
+
+// Header
+@import './components/Header/Header';
+
+// Home
+@import './components/Home/Home';
+@import './components/Home/MatchPosting';
+@import './components/Home/SmallProfileCard';
+@import './components/Home/BigProfileCard';
+@import './components/Home/searchBar';
+
+// HomeQuestion
+@import './components/HomeQuestion/HomeQuestion';
+
+// layout
+@import './components/layout/Alerts';
+@import './components/layout/NoFriend';
+
+// Login
+@import './components/Login/SignIn';
+@import './components/Login/SignUp';
+@import './components/Login/ChooseAvatar';
+
+// MetaPage
+
+// Posts
+@import './components/Posts/Posts';
+@import './components/Posts/PostsModal';

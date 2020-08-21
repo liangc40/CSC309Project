@@ -1,0 +1,139 @@
+.questionHeader{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    font-size: x-large;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.inputText{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    display: inline;
+    width: 300px;
+    margin-top: 10px;
+    height: 10px;
+}
+
+
+.wrapper {
+    background-color: transparent;
+    left: 35%;
+    position: absolute;
+    width:31%;
+}
+  
+// Input field
+.inputText[type=text] {
+    height:17px;
+    border: 0;
+    width: calc(100% - 2px);
+    margin-left:1px;
+    box-shadow: -8px 10px 0px -7px #ebebeb, 8px 10px 0px -7px #ebebeb;
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+  }
+
+.inputText[type=text]:focus {
+    outline: none;
+    box-shadow: -8px 10px 0px -7px #4EA6EA, 8px 10px 0px -7px #4EA6EA;
+}
+
+
+// button 
+.findNow {
+    border-radius: 4px;
+    background-color: #343A40;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.findNow span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.findNow span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.findNow:hover span {
+    padding-right: 25px;
+}
+
+.findNow:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.gender{
+    margin-top: 30px;
+}
+
+.btn-group-button {
+    background-color: #343A40; /* Green background */
+    border: 0.5px solid white; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    border-radius: 15px;
+    margin-right: 10px;
+    font-weight: 300;
+    font-size: large;
+  }
+  
+  .btn-group-button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: white;
+    color: #343A40;
+    border: 2px solid #343A40;
+  }
+
+.btn-group button:focus {
+    outline: 0 !important;
+}
+
+.typeText {
+    float: left;
+    margin-right: 18px;
+    margin-top: 9px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.inputField {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

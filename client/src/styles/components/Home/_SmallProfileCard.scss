@@ -1,0 +1,57 @@
+.SmallProfileCard {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.SmallProfileCard-Card{
+    border: none;
+}
+
+.SmallProfileCard-Image {
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    height: 180px;
+    width: 195px;
+    margin-left: 15px;
+}
+
+.SmallProfileCard-Title {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.SmallProfileCard-TextBio {
+    font-style: italic;
+}
+
+.SmallProfileCard-TextInterests {
+    font-size: large;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.SmallProfileCard-ProfileButton {
+    display: inline;
+}
+
+.SmallProfileCard-ProfileButton {
+    width: 73px;
+    height: 32px;
+    font-size: medium;
+    margin-right: 1rem;
+}
+
+.SmallProfileCard-DismissButton {
+    width: 73px;
+    height: 32px;
+    font-size: medium;
+}
+
+.SmallProfileCard-ButtonRow {
+    text-align: center;
+    vertical-align: middle;
+    display: inline;
+}
+

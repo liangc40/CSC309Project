@@ -1,0 +1,54 @@
+{
+  "store": {
+    "login": {
+      "isAdmin" : 0,
+      "isAuthenticated" : 0,
+      "name": 0
+    },
+    "user": {
+      "id": 0,
+      "isAdmin": 0,
+      "firstname": 0,
+      "lastname": 0,
+      "school": 0,
+      "gender": 0,
+      "email": 0,
+      "major": [0],
+      "bio": 0,
+      "profilePic": 0,
+      "createdAt": "timestamp"
+    },
+    "timeline": {
+      "followers": [0],
+      "following": [0],
+      "posts": [{
+        "id":0,
+        "like":0,
+        "comment": [{
+            "id": 0,
+            "name": 0,
+            "text": 0,
+            "createdAt": "timestamp"
+          }]
+      }],
+      "trending": [0]
+    },
+    "message": {
+      "haomafan": "butaihui"
+    },
+    "tutor": {
+      "history": [{
+        "transactionId": 0,
+        "studentId": 0,
+        "course": 0,
+        "rate": 0
+      }],
+      "recom": ["list-of-tutor(user)-id"]
+    },
+    "admin": {
+      "user": [],
+      "post": [],
+      "tutorService": []
+    }
+  }
+}

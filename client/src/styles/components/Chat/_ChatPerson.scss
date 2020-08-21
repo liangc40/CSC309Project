@@ -1,0 +1,46 @@
+#chatPersonButton {
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.chatPersonAvater{
+    width: 30%;
+    height: 100%;
+    background: white;
+    float: left;
+}
+
+.chatPersonContent{
+    margin-left: 30%;
+    height: 100%;
+    background: white;
+}
+
+.chatPersonName{
+    display: block;
+    color: black;
+}
+
+.chatPersonMessage{
+    display: block;
+    color: black;
+}
+
+.ChatPerson-ListGroup{
+    // display: inline;
+    margin-bottom: 5px;
+}
+
+.ChatPerson-Avatar{
+    margin-right: 40px;
+    margin-top: -3px;
+}

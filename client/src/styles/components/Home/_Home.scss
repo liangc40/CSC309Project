@@ -1,0 +1,58 @@
+.HomeMainPanel {
+    height: 1080px;
+    background-color: white;
+}
+
+.Home-Row {
+    height: 1080px;
+}
+
+.Home-MidCol {
+    color: red;
+    height: auto;
+}
+
+
+.Home-Jumbotron {
+    border-radius: 10px;
+    margin-top: 15px;
+    display: block;
+}
+
+.Home-JumbotronImage{
+    float: right;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin-top: -46px;
+    margin-right: 80px;
+}
+
+.Home-JumbotronH1 {
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+
+.Home-JumbotronP {
+    margin-left: 25px;
+    font-style: italic;
+    position: relative;
+}
+
+.Home-JumbotronButton {
+    width: 100px;
+    height: 35px;
+    font-size: medium;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+
+.Setting-DropdownButton {
+    margin-right: 4rem;
+}
+
+.Home-Row-middle {
+    align-items: center;
+}

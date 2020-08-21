@@ -1,0 +1,83 @@
+.form{
+    display: block;
+    margin: auto;
+}
+
+.header{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.field-control{
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    height: 25px;
+    text-indent: 10px;
+    box-sizing: content-box;
+    border-radius: 5px;
+    text-indent: 20px;
+}
+
+.button{
+    color: #343A40;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: white;
+    border-radius: 12px;
+    display: block;
+    position: absolute;
+    left: 35%;
+    width: 100px;
+    height: 35px;
+}
+
+.signup {
+    color: white;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    text-underline-position: below;
+    margin-top: 20px;
+    margin-left: 16%;
+    height: 3rem;
+    color: rgb(161, 153, 36);
+    background: rgba($color: #000000, $alpha: 0);
+    border: 0;
+
+}
+
+
+.Signin-container {
+    background-color: #343A40;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Signin-container-h1 {
+    font-size: 3em;
+    margin-bottom: 250px;
+    color: white;
+}
+
+.Signin-container-image {
+    margin-top: 10%;
+    height: 150px;
+}
+
+.Signin-row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.Signin-row2 {
+    margin-top: 80px;
+}
+
